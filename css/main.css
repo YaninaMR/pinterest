@@ -1,0 +1,168 @@
+span{
+ /* outline: solid 2px red;*/
+}
+li{
+ /* outline: solid 2px blue;*/
+}
+
+ul{
+/*  outline: solid 2px green;*/
+  list-style: none;
+}
+header{
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+*{
+  padding:0;
+  font-family: 'Source Sans Pro',sans-serif;
+  margin:0;
+  
+}
+.menu{
+  width: 100%;
+  margin: 0;
+  padding:10px 0;
+  display: inline-block;
+  text-align: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+.menu .input-box{
+  background-color: #EFEFEF;
+  width: 70%;
+  border-radius: 12px;
+  margin: 0px 16px;
+  padding: 10px;
+  display: inline-block;
+}
+.menu li{
+  font-weight: 700;
+  display: inline-block;
+
+}
+.menu li a{
+ padding:0;
+ color:#b5b5b5;
+ text-decoration:none}
+
+.menu  .input-box .glass-box{
+  width: 90%;
+  display: inline-block;
+}
+.menu  .input-box .glass-box input{
+/*line-height: 25px;*/
+  width: 88%;
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.menu .input-box .pins-box
+{
+  display: inline-block;
+}
+
+.infouser{
+  display: inline-block;
+  width: 40px;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+
+}
+
+.infosearch{
+  font-size: 15px;
+}
+.pintsearch{
+  font-size: 35px;
+  vertical-align: middle;
+  line-height: 40px;
+  height: 40px;
+  }
+.infocross{
+ font-size: 10px; 
+}
+/*estilos del submenu*/
+
+.submenu{
+ 
+  padding: 10px 0;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+.submenu  p {
+ 
+  background-color: rgba(150,110,75,.8);
+  color: #fff;
+  padding: 20px 25px;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.submenu  p.light {
+    background-color: rgba(194,149,110,.5);
+    color: #fff;
+    padding: 20px 25px;
+    font-weight: 700;
+    border-radius: 6px;
+  }
+  .submenu .button{
+    display: inline-block;
+    border-radius:6px;
+  }
+
+.submenu .button1, .submenu .button2,
+.submenu .button3, .submenu .button4,
+.submenu .button5, .submenu .button6,
+.submenu .button7, .submenu .button8,
+.submenu .button9{
+
+margin: 0 5px;
+}
+.submenu .button1{
+background-image: url(../assets/img/submenu/1.jpg);
+}
+.submenu .button3{
+background-image: url(../assets/img/submenu/3.jpg);
+}
+.submenu .button4{
+background-image: url(../assets/img/submenu/4.jpg);
+}
+.submenu .button5{
+background-image: url(../assets/img/submenu/5.jpg);
+}
+.submenu .button6{
+background-image: url(../assets/img/submenu/6.jpg);
+}
+.submenu .button7{
+background-image: url(../assets/img/submenu/7.jpg);
+}
+.submenu .button8{
+background-image: url(../assets/img/submenu/8.jpg);
+}
+.submenu .button9{
+background-image: url(../assets/img/submenu/9.jpg);
+}
+
+/* estilos section imagenes*/
+.images{
+  margin-top: 150px;
+  padding: 0 80px;
+  display: inline-block;
+  column-width:220px;
+}
+.images .picture{
+  margin: 15px;
+  cursor:pointer;
+}
+.images .picture img{
+  width:100%;
+  border-radius:20px;
+}
+
+#hidden{
+  display: none;
+}
